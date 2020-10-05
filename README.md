@@ -15,10 +15,17 @@ A backend API on Django with some basic operations using GraphQL.
 
 ## Getting Started
 
-- Create a virtual environment
+- Clone the repo and change working directory
+
+```
+$ git clone https://github.com/akshat0047/Django-GraphQL.git && cd Django-GraphQL
+```
+
+- Create a virtual environment and activate it
 
 ```
 $ python -m venv venv
+$ source venv/bin/activate
 ```
 
 - Install Requirements
@@ -58,6 +65,6 @@ $ python manage.py runserver
 
 ## Deployment
 
-The repository has a GitHub hook setup on the master branch which deloys the API on heroku, here.
+The repository has a GitHub hook setup on the master branch which deloys the API on heroku, [here](https://reckonsys.herokuapp.com/).
 
 ![deploy-to-heroku](https://www.herokucdn.com/deploy/button.svg)
