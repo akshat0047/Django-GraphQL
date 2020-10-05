@@ -1,0 +1,30 @@
+#home{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 59%, rgba(0, 0, 0, 0.3) 100%), url('/static/img/home-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h3{
+    color: white;
+}
+
+.hero-text{
+    position: relative;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-text {
+      top: 35%;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    .hero-text {
+        top:45%;
+    }
+}

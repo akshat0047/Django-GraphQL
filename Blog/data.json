@@ -1,0 +1,57 @@
+[
+    {
+      "model": "reckonsys.Post",
+      "pk": 2,
+      "fields": {
+        "author": "Harsh",
+        "title": "Blog 1",
+        "description": "Hello World Blog 1"
+      }
+    },
+    {
+      "model": "reckonsys.Post",
+      "pk": 3,
+      "fields": {
+        "author": "Abhinav",
+        "title": "Blog 2",
+        "description": "Hello World Blog 2"
+      }
+    },
+    {
+      "model": "reckonsys.Post",
+      "pk": 4,
+      "fields": {
+        "author": "Lakshya",
+        "title": "Blog 3",
+        "description": "Hello World Blog 3"
+      }
+    },
+    {
+      "model": "reckonsys.Comment",
+      "pk": 1,
+      "fields": {
+        "author": "Akshat",
+        "text": "great blog",
+        "post": 2
+      }
+    },
+    {
+      "model": "reckonsys.Comment",
+      "pk": 2,
+      "fields": {
+        "author": "Lakshya",
+        "text": "vocabulary used is good",
+        "post": 3
+      }
+    },
+    {
+      "model": "reckonsys.Comment",
+      "pk": 3,
+      "fields": {
+        "author": "Abhinav",
+        "text": "Another appreciation !",
+        "post": 4
+      }
+    }
+  ]
+  

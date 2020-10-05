@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden !important;
+}
+
+a{
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
